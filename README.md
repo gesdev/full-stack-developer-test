@@ -39,7 +39,7 @@ a) Listado de fechas disponibles de sesiones (estas deben provenir de la informa
 b) Grid de sesiones disponibles para una fecha, cada sesion debe mostrar su información básica.
 c) Un grid para visualizar los datos de la tabla 3.
 
-![Diseño aplicacion web](/bhlr/full-stack-developer-test/blob/main/design/sesionestest.png)
+![Diseño aplicacion web](https://github.com/bhlr/full-stack-developer-test/blob/main/design/sesionestest.png)
 
 La aplicación no tiene acceso a base de datos, todo se hace a través del Web API, y dejar
 parametrizable la dirección del Web API.d) Página de la sesion que muestre la información básica y combobox para seleccionar alumno a asignar. 
