@@ -1,4 +1,4 @@
-# full-stack-developer-test
+# Full-stack-developer-test
 prueba técnica para evaluar las habilidades de un desarrollador de software en los siguientes aspectos: desarrollo back-end, desarrollo front-end, desarrollo de REST API y bases de datos.
 
 Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados bifurcando este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener como minimo:
@@ -15,7 +15,7 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
 * Estamos buscando un desarrollador que sepa desenvolverse en todo el proceso de desarrollo. Utilice esta oportunidad para mostrarnos lo bueno que es en ambas áreas.
 * No olvide documentar el proceso necesario para ejecutar y crear su aplicación. O si no, ¿cómo vamos a evaluar su trabajo si no podemos iniciar el proyecto en nuestras máquinas?
 
-# D eveloper recruitment test
+# Developer recruitment test
 El desarrollo consiste en crear una aplicación web para participar en sesiones de clases de una universidad, para este sistema deberá seguir los requisitos solicitados en cada una de las etapas del proyecto. El sistema cuenta con una serie de sesiones donde un estudiante se puede inscribir, cada sesión cuenta con un nombre de curso, fecha inicio fecha final y cupo. Un alumno debe ser capaz de ver las sesiones disponibles para las diferentes fechas y seleccionar en cual desea participar. 
 
 ## Restricciones :
@@ -39,7 +39,7 @@ a) Listado de fechas disponibles de sesiones (estas deben provenir de la informa
 b) Grid de sesiones disponibles para una fecha, cada sesion debe mostrar su información básica.
 c) Un grid para visualizar los datos de la tabla 3.
 
-![Diseño aplicacion web](sesionestest.png)
+![Diseño aplicacion web](./bhlr/full-stack-developer-test/blob/main/design/sesionestest.png)
 
 La aplicación no tiene acceso a base de datos, todo se hace a través del Web API, y dejar
 parametrizable la dirección del Web API.d) Página de la sesion que muestre la información básica y combobox para seleccionar alumno a asignar. 
