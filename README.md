@@ -40,8 +40,8 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
             "cupo":15
          }
       ]
-      }
-      }
+   }
+}
 ```
 
 ## Que evaluaremos
