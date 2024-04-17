@@ -9,6 +9,40 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
 * Agregue el archivo README en las dos carpetas de codificación para explicar cómo ejecutar su código.
 * No pida a sus amigos que resuelvan el desafío por usted. Deberá explicar sus elecciones en persona.
 
+## Requerimientos 
+* Su código debe compilarse y ejecutarse en un solo paso.
+* Siéntase libre de utilizar cualquier framework/biblioteca/paquete que desee.
+* Intente acercarse lo más posible a la imagen de nuestra vista de calendario.
+* Su desarrollo debe funcionar con el archivo sesiones.json (al momento de ejecutar debe cargar la data del archivo a la tabla de sesiones)
+
+### Ejemplo 
+`code`
+{
+   "sesiones":{
+      "Fisica I":[
+         {
+            "fecha_inicio":"16/04/2024 8:00",
+            "fecha_fin":"16/04/2024 10:00",
+            "cupo":10
+         }
+      ],
+      "Electronica IV":[
+         {
+            "fecha_inicio":"16/04/2024 18:00",
+            "fecha_fin":"16/04/2024 19:00",
+            "cupo":20
+         }
+      ],
+      "Matematica III":[
+         {
+            "fecha_inicio":"16/04/2024 11:00",
+            "fecha_fin":"16/04/2024 13:00",
+            "cupo":15
+         }
+      ]
+      }
+      }
+
 ## Que evaluaremos
 * Tu código será evaluado por: semántica, estructura, legibilidad, tamaño, entre otros factores.
 * Se evaluará el historial de git.
@@ -19,7 +53,9 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
 El desarrollo consiste en crear una aplicación web para participar en sesiones de clases de una universidad, para este sistema deberá seguir los requisitos solicitados en cada una de las etapas del proyecto. El sistema cuenta con una serie de sesiones donde un estudiante se puede inscribir, cada sesión cuenta con un nombre de curso, fecha inicio fecha final y cupo. Un alumno debe ser capaz de ver las sesiones disponibles para las diferentes fechas y seleccionar en cual desea participar. 
 
 ## Restricciones :
-Un alumno debe existir en el sistema previamente (en tabla alumnos) Una sesión no debe permitir inscripciones después de llevar a su cupo límiteUn alumno no puede inscribirse a 2 o más sesiones que sus horarios entrelazan
+* Un alumno debe existir en el sistema previamente (en tabla alumnos) 
+* Una sesión no debe permitir inscripciones después de llegar a su cupo límite
+* Un alumno no puede inscribirse a 2 o más sesiones que sus horarios se entrelazan
 
 # Backend 
 1. Crear el modelo de datos, crear 3 tablas para la aplicación, estudiantes, sesiones y asignaciones.
@@ -52,3 +88,10 @@ parametrizable la dirección del Web API.
 * Manejo de Solicitudes:Implementa controladores para cada método HTTP en tus recursos de API.Asegúrate de que los controladores manejen correctamente las solicitudes entrantes y realicen las operaciones correspondientes en la base de datos.
 * Manejo de Respuestas:Configura tus controladores para devolver respuestas JSON adecuadas con los datos solicitados o mensajes de error apropiados.
 * Utiliza códigos de estado HTTP apropiados (por ejemplo, 200 para respuestas exitosas, 404 para recursos no encontrados, etc.)
+
+# Extras
+* Manejo de Excepciones.
+* Seguridad y Autenticación.
+* Procedimientos almacenados. 
+* Documentación de API.
+* Responsive Design.
