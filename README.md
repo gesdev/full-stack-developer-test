@@ -16,7 +16,7 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
 * Su desarrollo debe funcionar con el archivo sesiones.json (al momento de ejecutar debe cargar la data del archivo a la tabla de sesiones)
 
 ### Ejemplo 
-`code`
+`
 {
    "sesiones":{
       "Fisica I":[
@@ -42,7 +42,7 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
       ]
       }
       }
-`code`
+`
 
 ## Que evaluaremos
 * Tu código será evaluado por: semántica, estructura, legibilidad, tamaño, entre otros factores.
