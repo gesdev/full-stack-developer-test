@@ -1,5 +1,5 @@
 # Full-stack-developer-test
-prueba técnica para evaluar las habilidades de un desarrollador de software en los siguientes aspectos: desarrollo back-end, desarrollo front-end, desarrollo de REST API y bases de datos.
+Prueba técnica para evaluar las habilidades de un desarrollador de software en los siguientes aspectos: desarrollo back-end, desarrollo front-end, desarrollo de REST API y bases de datos.
 
 Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados bifurcando este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener como minimo:
 
@@ -63,7 +63,7 @@ El desarrollo consiste en crear una aplicación web para participar en sesiones
 2. Crea una tabla llamada "estudiantes" con al menos tres columnas: id (clave primaria), nombre y correo electrónico.
 3. Crea una tabla llamada "sesiones" con al menos cinco columnas: id (clave primaria), nombre y start_datetime, end_datetime, cupo
 4. Cree la tabla asignaciones segun consider major, esta debe tener la relacion entre un estudiante y la sesión a la que se inscribió.
-5. Ingrese datos de prueba a las tablas de estudiantes y sesiones
+5. Ingrese datos de prueba a las tablas de estudiantes y sesiones (recuerda utilizar el archivo sesiones.json)
 6. Implementa endpoints para obtener información de estudiantes y sesiones.
 7. Implementa endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la tabla estudiantes.
 8. Implementa endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la tabla de asignaciones.
@@ -72,16 +72,16 @@ El desarrollo consiste en crear una aplicación web para participar en sesiones
 
 Crear una aplicación Web (Si está familiarizado con un framework de front-end como React.js, Angular o Vue.js Puede utilizarlo), que tenga el mantenimiento de latabla asignaciones (Agregar, Eliminar, Modificar), donde dicho mantenimiento debe contener:
 
-1. Listado de fechas disponibles de sesiones (estas deben provenir de la información en la tabla de sesiones).
-2. Grid de sesiones disponibles para una fecha, cada sesion debe mostrar su información básica.
-3. Un grid para visualizar los datos de la tabla 3.
+1. Calendario,listado de fechas disponibles de sesiones (estas deben provenir de la información en la tabla de sesiones).
+2. Grid de sesiones disponibles para una fecha seleccionada, cada sesion debe mostrar su información básica.
+3. Al dar click sobre una sesión se debe mostrar en una página la información de la sesión.
+4. La página deberá incluir un combobox (menú desplegable) para la selección de alumnos a asignar.
 
 ![Diseño aplicacion web](https://github.com/bhlr/full-stack-developer-test/blob/main/design/sesionestest.png)
 
-La aplicación no tiene acceso a base de datos, todo se hace a través del Web API, y dejar
-parametrizable la dirección del Web API.d) Página de la sesion que muestre la información básica y combobox para seleccionar alumno a asignar. 
-La aplicación no tiene acceso a base de datos, todo se hace a través del Web API, y dejar
-parametrizable la dirección del Web API.
+\* El front-end no debe tener acceso a base de datos, todo se debe hacer a través del Web API. 
+La dirección del Web API debe ser parametrizable en una variable de entorno o en un archivo de configuración.
+
 
 # Desarrollo de REST API
 ### Diseño de API:
