@@ -70,11 +70,11 @@ El desarrollo consiste en crear una aplicación web para participar en sesiones
 
 # Front-End
 
-Crear una aplicación Web (Si está familiarizado con un framework de front-end como React.js, Angular o Vue.js Puede utilizarlo)  que tenga el mantenimiento de latabla asignaciones (Agregar, Eliminar, Modificar), donde dicho mantenimiento debe contener:
+Crear una aplicación Web (Si está familiarizado con un framework de front-end como React.js, Angular o Vue.js Puede utilizarlo), que tenga el mantenimiento de latabla asignaciones (Agregar, Eliminar, Modificar), donde dicho mantenimiento debe contener:
 
-a) Listado de fechas disponibles de sesiones (estas deben provenir de la información en la tabla de sesiones).
-b) Grid de sesiones disponibles para una fecha, cada sesion debe mostrar su información básica.
-c) Un grid para visualizar los datos de la tabla 3.
+1. Listado de fechas disponibles de sesiones (estas deben provenir de la información en la tabla de sesiones).
+2. Grid de sesiones disponibles para una fecha, cada sesion debe mostrar su información básica.
+3. Un grid para visualizar los datos de la tabla 3.
 
 ![Diseño aplicacion web](https://github.com/bhlr/full-stack-developer-test/blob/main/design/sesionestest.png)
 
