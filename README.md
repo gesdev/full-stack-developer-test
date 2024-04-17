@@ -1,21 +1,21 @@
 # full-stack-developer-test
 prueba técnica para evaluar las habilidades de un desarrollador de software en los siguientes aspectos: desarrollo back-end, desarrollo front-end, desarrollo de REST API y bases de datos.
 
-Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados bifurcando este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener:
+Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados bifurcando este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener como minimo:
 
-* un único archivo de rebajas con las respuestas a las preguntas técnicas
-* una carpeta "backend" que contiene la prueba técnica de backend
-* una carpeta "frontend" que contiene la prueba técnica del frontend
-* Agregue el archivo Léame en las dos carpetas de codificación para explicar cómo ejecutar su código.
-* No les pidas a tus amigos que resuelvan el desafío por ti. Deberá explicar sus elecciones en persona.
+* Un único archivo de README.md con las respuestas a las preguntas técnicas
+* Una carpeta "backend" que contiene la prueba técnica de backend
+* Una carpeta "frontend" que contiene la prueba técnica del frontend
+* Agregue el archivo README en las dos carpetas de codificación para explicar cómo ejecutar su código.
+* No pida a sus amigos que resuelvan el desafío por usted. Deberá explicar sus elecciones en persona.
 
-## que evaluaremos
+## Que evaluaremos
 * Tu código será evaluado por: semántica, estructura, legibilidad, tamaño, entre otros factores.
 * Se evaluará el historial de git.
 * Estamos buscando un desarrollador que sepa desenvolverse en todo el proceso de desarrollo. Utilice esta oportunidad para mostrarnos lo bueno que es en ambas áreas.
 * No olvide documentar el proceso necesario para ejecutar y crear su aplicación. O si no, ¿cómo vamos a evaluar su trabajo si no podemos iniciar el proyecto en nuestras máquinas?
 
-# developer recruitment test
+# D eveloper recruitment test
 El desarrollo consiste en crear una aplicación web para participar en sesiones de clases de una universidad, para este sistema deberá seguir los requisitos solicitados en cada una de las etapas del proyecto. El sistema cuenta con una serie de sesiones donde un estudiante se puede inscribir, cada sesión cuenta con un nombre de curso, fecha inicio fecha final y cupo. Un alumno debe ser capaz de ver las sesiones disponibles para las diferentes fechas y seleccionar en cual desea participar. 
 
 ## Restricciones :
@@ -26,7 +26,10 @@ Un alumno debe existir en el sistema previamente (en tabla alumnos) Una sesión
 2. Crea una tabla llamada "estudiantes" con al menos tres columnas: id (clave primaria), nombre y correo electrónico.
 3. Crea una tabla llamada "sesiones" con al menos cinco columnas: id (clave primaria), nombre y start_datetime, end_datetime, cupo
 4. Cree la tabla asignaciones segun consider major, esta debe tener la relacion entre un estudiante y la sesión a la que se inscribió.
-5. Ingrese datos de prueba a las tablas de estudiantes y sesiones6. Implementa endpoints para obtener información de estudiantes y sesiones.7. Implementa endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la tabla de asignaciones.
+5. Ingrese datos de prueba a las tablas de estudiantes y sesiones
+6. Implementa endpoints para obtener información de estudiantes y sesiones.
+7. Implementa endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la tabla estudiantes.
+8. Implementa endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la tabla de asignaciones.
 
 # Front-End
 
@@ -35,6 +38,8 @@ Crear una aplicación Web (Si está familiarizado con un framework de front-end 
 a) Listado de fechas disponibles de sesiones (estas deben provenir de la información en la tabla de sesiones).
 b) Grid de sesiones disponibles para una fecha, cada sesion debe mostrar su información básica.
 c) Un grid para visualizar los datos de la tabla 3.
+
+![Diseño aplicacion web](sesionestest.png)
 
 La aplicación no tiene acceso a base de datos, todo se hace a través del Web API, y dejar
 parametrizable la dirección del Web API.d) Página de la sesion que muestre la información básica y combobox para seleccionar alumno a asignar. 
