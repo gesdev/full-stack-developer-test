@@ -42,6 +42,7 @@ Para evitar correos electrónicos rebotados, nos gustaría que envíe sus result
       ]
       }
       }
+`code`
 
 ## Que evaluaremos
 * Tu código será evaluado por: semántica, estructura, legibilidad, tamaño, entre otros factores.
