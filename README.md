@@ -1,7 +1,7 @@
 # Full-stack-developer-test
 Prueba técnica para evaluar las habilidades de un desarrollador de software en los siguientes aspectos: desarrollo back-end, desarrollo front-end, desarrollo de REST API y bases de datos.
 
-Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados bifurcando este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener como minimo:
+Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados haciendo un fork de este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener como minimo:
 
 * Un único archivo de Answers.md con las respuestas a las preguntas técnicas
 * Una carpeta "backend" que contiene la prueba técnica de backend
