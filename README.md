@@ -3,7 +3,7 @@ prueba técnica para evaluar las habilidades de un desarrollador de software en 
 
 Para evitar correos electrónicos rebotados, nos gustaría que envíe sus resultados bifurcando este repositorio en Github y compartiendo la URL de su repositorio con el administrador de nuestro personal. Su repositorio debe contener como minimo:
 
-* Un único archivo de README.md con las respuestas a las preguntas técnicas
+* Un único archivo de Answers.md con las respuestas a las preguntas técnicas
 * Una carpeta "backend" que contiene la prueba técnica de backend
 * Una carpeta "frontend" que contiene la prueba técnica del frontend
 * Agregue el archivo README en las dos carpetas de codificación para explicar cómo ejecutar su código.
@@ -90,9 +90,27 @@ parametrizable la dirección del Web API.
 * Manejo de Respuestas:Configura tus controladores para devolver respuestas JSON adecuadas con los datos solicitados o mensajes de error apropiados.
 * Utiliza códigos de estado HTTP apropiados (por ejemplo, 200 para respuestas exitosas, 404 para recursos no encontrados, etc.)
 
+# Preguntas técnicas
+Responda las siguientes preguntas en un archivo de rebajas llamado Answers.md.
+
+1. ¿Cuánto tiempo dedicó a la prueba de codificación de backend?
+2. ¿Qué agregarías a tu solución si tuvieras más tiempo?
+3. ¿Cuales fueron los motivos de tu elección de arquitectura para este tipo de aplicación ?
+4. ¿Cómo se pueden gestionar los casos posteriores a la medianoche para que se muestren el mismo día y no el siguiente?
+5. ¿Cuánto tiempo dedicó a la prueba de codificación frontend? ¿Cuáles fueron tus mayores dificultades?
+6. ¿Cómo localizaría un problema de rendimiento en producción? ¿Alguna vez has tenido que hacer esto?
+7. ¿Cuál fue la característica más útil que se agregó a la última versión del lenguaje elegido? Incluya un fragmento de código que muestre cómo lo ha utilizado.
+8. ¿Que elementos de seguridad hubiera incluido en su API?
+
 # Extras
 * Manejo de Excepciones.
 * Seguridad y Autenticación.
 * Procedimientos almacenados. 
 * Documentación de API.
 * Responsive Design.
+
+
+# Enviándo el resultado
+Una vez que su solución esté lista, puede enviarnos el enlace de su repositorio por correo electrónico, asegurece que contenga todos los archivos necesarios.
+
+Si por alguna razón necesitas más tiempo para terminar el desafío, háznoslo saber.
